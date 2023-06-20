@@ -1,7 +1,7 @@
 # BillSplitter
 
 The Bill Splitter App is a simple iOS application designed to split a bill evenly among a group of people, including the tip amount. It helps users calculate the individual share for each person, making it convenient and hassle-free to split bills at restaurants and other venues.
-![Simulator Screen Shot - iPhone 13 - 2023-06-19 at 21 58 05](https://github.com/pjjarrar/BillSplitter/assets/10969602/907451ba-c0b0-49d4-8173-504712b6d733)
+
 
 Features
 Bill Splitting: Easily enter the total bill amount and the number of people in the group to calculate the individual share.
