@@ -17,8 +17,8 @@ struct CalculateTip {
     
     func decimalToPercent(percent: Float?) -> Int{
         if let percent = percent{
-            let percentParsed = Int(percent * 100)
-            return percentParsed
+            let percentToInt = Int(percent * 100)
+            return percentToInt
         } else {
             return 0
         }

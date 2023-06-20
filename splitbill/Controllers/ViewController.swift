@@ -9,14 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        percentChosen = 0.1
-        splitNumberChosen = 2.0
-        totalAmount = 0.0
-        
-    }
-
+   
     
     @IBOutlet weak var billTextField: UITextField!
     @IBOutlet weak var zeroPctButton: UIButton!
@@ -30,6 +23,14 @@ class ViewController: UIViewController {
     var answer: Float?
     
     let calculateTip = CalculateTip()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        percentChosen = 0.1
+        splitNumberChosen = 1.0
+        totalAmount = 0.0
+        
+    }
     
     
     @IBAction func tipChanged(_ sender: UIButton) {

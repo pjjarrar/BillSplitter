@@ -33,6 +33,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="52" id="Dnp-9T-qTx"/>
                                         </constraints>
+                                        <color key="textColor" red="0.60392156860000001" green="0.7725490196" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="35"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -59,47 +60,44 @@
                                                 <color key="textColor" red="0.51372549020000002" green="0.51372549020000002" blue="0.51372549020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="DJZ-UK-VxY">
-                                                <rect key="frame" x="38.5" y="80" width="297" height="50"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="DJZ-UK-VxY">
+                                                <rect key="frame" x="34.5" y="80" width="305" height="50"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHX-CZ-hq2">
-                                                        <rect key="frame" x="0.0" y="0.0" width="70" height="50"/>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHX-CZ-hq2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="46" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="EP5-LX-HIz"/>
                                                         </constraints>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
                                                         <color key="tintColor" red="0.60392156860000001" green="0.7725490196" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="0%">
-                                                            <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="0%"/>
                                                         <connections>
                                                             <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aih-KY-4ah"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ps6-hk-xes">
-                                                        <rect key="frame" x="100" y="0.0" width="81" height="50"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ps6-hk-xes">
+                                                        <rect key="frame" x="116" y="0.0" width="57" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="BsN-3Y-fdO"/>
                                                         </constraints>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
                                                         <color key="tintColor" red="0.60392156860000001" green="0.7725490196" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="10%">
-                                                            <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="10%"/>
                                                         <connections>
                                                             <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e9p-0g-tI5"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFR-bj-beb">
-                                                        <rect key="frame" x="211" y="0.0" width="86" height="50"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFR-bj-beb">
+                                                        <rect key="frame" x="243" y="0.0" width="62" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="sh8-Q8-E7I"/>
                                                         </constraints>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
                                                         <color key="tintColor" red="0.60392156862745094" green="0.77254901960784317" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="20%">
-                                                            <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="20%"/>
                                                         <connections>
                                                             <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dtn-jL-QQz"/>
                                                         </connections>
@@ -118,7 +116,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="XaL-U1-1jm">
                                                 <rect key="frame" x="106.5" y="260" width="161" height="45"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2S-Na-fAZ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2S-Na-fAZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="30" height="45"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="30" id="8te-ct-oRh"/>
@@ -128,7 +126,7 @@
                                                         <color key="textColor" red="0.60392156860000001" green="0.7725490196" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="f1f-jy-W7P">
+                                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" maximumValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="f1f-jy-W7P">
                                                         <rect key="frame" x="67" y="0.0" width="94" height="45"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="94" id="aui-rd-iG4"/>
